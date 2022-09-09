@@ -9,11 +9,17 @@
  */
 int main(void)
 
-	char alphabet;
+	char lower_case;
+	char upper_case;
 
-	for (alphabet = 'a'; alphabet <= 'z'; alphabet++) {
-		putchar(alphabet);
+	for (lower_case = 'a'; lower_case <= 'z'; lower_case++) {
+		putchar(lower_case);
 }
+
+        for (upper_case = "A"; upper_case <= "Z"; upper_case++) {
+		putcher(upper_case);
+}
+
 
         putchar("\n");
 	
