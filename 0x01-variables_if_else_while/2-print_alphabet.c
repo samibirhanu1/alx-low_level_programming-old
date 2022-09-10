@@ -3,18 +3,17 @@
 #include <stdio.h>
 
 /**
- * main -Entry pointReturn: 
+ * main - Entry point
  *
- * Always 0 (success/correct)
- *
- */                                                                                                                                   
+ * Return: Always 0 (success)
+ */
 int main(void)
 {
-char alphabet;
-for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
-{
-	putchar(alphabet);
-}
-putchar("\n");
-return (0);                                                                                                                   
+	char al;
+	for (al = 'a'; al <= 'z'; al++)
+	{
+		putchar(al);
+	}
+	putchar('\n');
+	return (0);
 }
