@@ -11,8 +11,6 @@ int main(void)
 {
 	char al;
 	
-	srand(time(0));
-        n = rand() - RAND_MAX / 2;
 	for (al = 'a'; al <= 'z'; al++)
 	{
 		putchar(al);
