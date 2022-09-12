@@ -10,7 +10,7 @@
 int main(void)
 {
 	char al;
-for (al = 'a'; al <= 'z'; al++)
+	for(al = 'a'; al <= 'z'; al++)
 	{
 		putchar(al);
 	}
