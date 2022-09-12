@@ -10,9 +10,9 @@
 int main(void)
 {
 	char alphabet;
-
+	
 	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
-{
+	{
 	       if (alphabet == 'q')
 	               continue;
 
@@ -20,7 +20,7 @@ int main(void)
 	                continue;
 	       
 	       putchar(alphabet);
-}
+	}
 	       putchar('\n');
 	       return (0);
 }
