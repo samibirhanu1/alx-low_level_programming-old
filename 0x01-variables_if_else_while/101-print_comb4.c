@@ -13,7 +13,8 @@ int main(void)
 		for (p = 1; p <= 9; p++)
 			for (m = 2; m <= 99; m++)
 				if (m > p && p > i)
-					putchar(i + '0');	
+				{
+					putchar(i + '0'); }
 	putchar(p + '0');
 	putchar(m + '0');
 	if (i != 7)
