@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
  * main - Entry-level
  *
@@ -17,11 +18,9 @@ int main(void)
 
 	       else if (alphabet == 'e')
 	                continue;
-
+	       
 	       putchar(alphabet);
 }
-
-               putchar('\n');
-
+	       putchar('\n');
 	       return (0);
 }
