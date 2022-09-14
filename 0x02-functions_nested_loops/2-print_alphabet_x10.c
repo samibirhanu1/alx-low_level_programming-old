@@ -1,10 +1,3 @@
-Task 2.txt
-Yesterday
-Tue 3:13 PM
-Antony Bahati uploaded an item
-Text
-Task 2.txt
-
 #include "main.h"
 /**
  * print_alphabet_x10 - function to print abc 10 times
