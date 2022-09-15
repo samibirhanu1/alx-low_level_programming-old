@@ -1,23 +1,17 @@
-#ifndef MAIN_H
-#define MAIN_H
+#include "main.h"
 
 /**
-*main - header file for protoypes
-*void protoypes (void)
-*int protoypes (int)
+*_isupper - checks if a  character is uppercase or not
+*@c: character to be tested
+*Return: 1 whether it is, 0 otherwise
 */
 
-void print_numbers(void);
-void print_most_numbers(void);
-void more_numbers(void);
-void print_line(int n);
-void print_diagonal(int n);
-void print_square(int size);
-void print_triangle(int size);
-void print_number(int n);
-int _putchar(char);
-int _isupper(int);
-int _isdigit(int);
-int mul(int, int);
+int _isupper(int c)
+{
+	if ((c >= 'A') && (c <= 'Z'))
+	{
+		return (1);
+	}
 
-#endif /* MAIN_H */
+	return (0);
+}
