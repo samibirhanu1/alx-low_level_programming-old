@@ -3,11 +3,13 @@
  * Auth: sam tech (samuel birhanu)
  */
 
+#include <stdio.h>
+#include <stdlib.h>
 #include "main.h"
 
 /**
- * strcat - Concatenates the string pointed to by @src, including the terminating
- *          null byte, to the end of the string pointed to by @dest.
+ * strcat - Concatenate the string pointed to by @src, including the terminate
+ *          null byte, to the end of the string point to by @dest.
  * @dest: A pointer to the string to be concatenated upon.
  * @src: The source string to be appended to @dest.
  *
