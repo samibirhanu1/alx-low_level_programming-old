@@ -1,6 +1,6 @@
 /*
  * File: 6-is_prime_number.c
- * Auth: sam tech (samuel birhanu)
+ * Auth: sam tech
  */
 
 #include "main.h"
