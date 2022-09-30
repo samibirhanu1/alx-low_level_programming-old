@@ -1,59 +1,51 @@
-/*
- * File: 100-change.c
- * Auth: sam tech
- */
-
 #include <stdio.h>
 #include <stdlib.h>
 
 /**
- * main - Prints the minimum number of coins to
- *        make change for an amount of money.
- * @argc: The number of arguments supplied to the program.
- * @argv: An array of pointers to the arguments.
- *
- * Return: If the number of arguments is not exactly one - 1.
- *         Otherwise - 0.
+ * main - function
+ *@argc: length of argv
+ *@argv: number of argument
+ *Return: Always 0
  */
+
 int main(int argc, char *argv[])
 {
-	int cents, coins = 0;
+/*Declaring variables*/
+int position, total, change, aux;
+int coins[] = {25, 10, 5, 2, 1}; /*Array int*/
 
-	if (argc != 2)
-	{
-		printf("Error\n");
-		return (1);
-	}
+position = total = change = aux = 0;
 
-	cents = atoi(argv[1]);
+if (argc != 2)
+{
+printf("Error\n");
+return (1);
+}
 
-	while (cents > 0)
-	{
-		coins++;
-		if ((cents - 25) >= 0)
-		{
-			cents -= 25;
-			continue;
-		}
-		if ((cents - 10) >= 0)
-		{
-			cents -= 10;
-			continue;
-		}
-		if ((cents - 5) >= 0)
-		{
-			cents -= 5;
-			continue;
-		}
-		if ((cents - 2) >= 0)
-		{
-			cents -= 2;
-			continue;
-		}
-		cents--;
-	}
+total = atoi(argv[1]); /*Covert str to int*/
 
-	printf("%d\n", coins);
+if (total <= 0)
+{
+printf("0\n");
+return (0);
+}
 
-	return (0);
+/*Declaring While*/
+
+while (coins[position] != '\0')
+
+{
+if (total >= coins[position])
+{
+aux = (total / coins[position]);
+change += aux;
+total -= coins[position] * aux;
+}
+
+position++;
+
+}
+
+printf("%d\n", change);
+return (0);
 }
