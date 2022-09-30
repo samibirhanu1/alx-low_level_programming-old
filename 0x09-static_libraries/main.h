@@ -3,9 +3,9 @@
 
 /*
  * File: main.h
- * Auth: sam tech (samuel birhanu)
- * desc: Header file containg the prototypes
- *
+ * Auth: sam tech samuel birhanu: 
+ * Desc: Header file containing the prototypes of all functions
+ *  included in the static library libmy.a
  */
 
 int _putchar(char c);
