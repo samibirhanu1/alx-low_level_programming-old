@@ -1,0 +1,9 @@
+As usual follow the steps i show copy the codes but never forget to understand the codes....
+i think as todayscodes are very short you don't need to copy and paste it write it by your own but if you perfer to do so 
+use cat > file_name then paste it after that click enter and to stop writting use ctrl+c use this method at last git add .
+git commit -m "" and git push that's all ....
+subscribe 
+like and comment
+and most of all never forget to understand what it means...
+sam tech samuel birhanu
+thanks enjoy yoyr code
